@@ -22,14 +22,12 @@ h3,h1{
     font-style: italic;
 }
 .happy{
-    /* background-color: aquamarine; */
     width: 100px;
     height: 100px;
     float: left;
     margin: 0px 100px 0px 100px;
 }
 .sad{
-    /* background-color: aquamarine; */
     width: 100px;
     height: 100px;
     float: left;
