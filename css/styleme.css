@@ -1,0 +1,36 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.main_about_me_box{
+    padding:10px 100px 15px 100px;
+}
+.about_me_box{
+    height: 1000px;
+    width: 100%;
+}
+.content_box{
+    height: 700px;
+    width: 100%;
+}
+h3,h1{
+    color: cadetblue;
+}
+.favorite_movies ul{
+    list-style: decimal;
+}
+.anime_intro{
+    font-style: italic;
+}
+.happy{
+    /* background-color: aquamarine; */
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 100px 0px 100px;
+}
+.sad{
+    /* background-color: aquamarine; */
+    width: 100px;
+    height: 100px;
+    float: left;
+}
