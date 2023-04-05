@@ -4,11 +4,12 @@
 }
 .box_left{
     height: 500px;
-    width: 30%;
+    width: 25%;
     float: left;
+    background-color: yellow;
 }
 .box_left_profile_pic{
-    height: 450px;
+    height: 500px;
     width: 100%;
 }
 .box_right{

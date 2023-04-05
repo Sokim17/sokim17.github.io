@@ -1,0 +1,24 @@
+.container{
+    padding: 0px 300px;
+}
+.header{
+    color: #A4A400;
+    text-align: center;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pie_picture{
+    background-color: #74992e;
+    width: 250px;
+    height: 250px;
+}
+.pie_directions h3, .pie_ingredient h3, .users_comments h3, .links h3{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#directions{
+    list-style-type: decimal;
+}
