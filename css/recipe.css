@@ -1,8 +1,9 @@
 .container{
-    padding: 0px 300px;
+    padding: 0px 270px;
 }
 .header{
     color: #A4A400;
+    font-size: 22pt;
     text-align: center;
     background-color: #F0F0F0;
     text-decoration: underline;
@@ -15,6 +16,7 @@
 }
 .pie_directions h3, .pie_ingredient h3, .users_comments h3, .links h3{
     color: #A4A400;
+    font-size: 18pt;
     background-color: #F0F0F0;
     text-decoration: underline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -61,6 +63,7 @@
   }
   .font{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11pt;
   }
   blockquote{
     background-color: #FFFFA8;
@@ -75,6 +78,13 @@
   .box_copyright{
     float: left;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 11pt;
   }
-
-  
+  .links{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #A4A400;
+    font-size: 11pt;
+  }
+  ul{
+    list-style-image: url("/img/recipeImages/pie_bullet.png");
+  }
