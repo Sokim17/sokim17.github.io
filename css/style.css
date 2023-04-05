@@ -3,8 +3,7 @@
     width: 100%;
 }
 .box_left{
-    height: 500px;
-    width: 25%;
+    width: 21%;
     float: left;
     background-color: yellow;
 }
@@ -14,7 +13,7 @@
 }
 .box_right{
     height: 500px;
-    width: 70%;
+    width: 75%;
     float: right;
 }
 .nav_bar a{
