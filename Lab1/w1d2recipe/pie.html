@@ -17,7 +17,7 @@
                 <div class="pie_picture">
                     <img src="/img/recipeImages/pie.jpg">
                 </div>
-                <p> One 9-inch pie <br>
+                <p class="font"> One 9-inch pie <br>
                     30 Min - Prep time <br>
                     10 Min - Cook time <br>
                     40 Min - Total<br>
@@ -28,18 +28,41 @@
         <section>
             <div class="pie_ingredient">
                 <h3>INGREDIENTS</h3>
-                <ul id="ingredients">
+                <ul id="ingredients" class="font">
                     <li>1 cup white sugar</li>
-                    <li>2 tbsp all-purpose flour</li>
-                    <li>3 tbsp cornstarch</li>
-                    <li>1/4 tsp salt</li>
+                    <li>2 
+                        <div class="tooltip">tbsp
+                            <span class="tooltiptext">tablespoon</span>
+                        </div>
+                        all-purpose flour</li>
+                    <li>3
+                        <div class="tooltip">tbsp
+                            <span class="tooltiptext">tablespoon</span>
+                        </div> 
+                        cornstarch
+                    </li>
+                    <li>1/4 
+                        <div class="tooltip">tsp
+                            <span class="tooltiptext">teaspoon</span>
+                        </div>
+                        salt</li>
                     <li>1 1/2 cups water</li>
                     <li>2 lemons, juiced and zested</li>
-                    <li>2 tbsp butter</li>
+                    <li>2 
+                        <div class="tooltip">tbsp
+                            <span class="tooltiptext">tablespoon</span>
+                        </div>
+                        butter
+                    </li>
                     <li>4 egg yolks, beaten</li>
                     <li>1 (9 inch) pie crust, baked</li>
                     <li>4 egg whites</li>
-                    <li>6 tbsp white sugar</li>
+                    <li>6 
+                        <div class="tooltip">tbsp
+                            <span class="tooltiptext">tablespoon</span>
+                        </div>
+                        white sugar
+                    </li>
                 </ul>
             </div>
         </section>
@@ -47,9 +70,9 @@
         <section>
             <div class="pie_directions">
                 <h3>DIRECTIONS</h3>
-                <ol id="ingredients">
-                    <li><span style="font-weight: bold;">Oven:</span>Preheat oven to 350 degrees F (175 degrees C).</li>
-                    <li><span style="font-weight: bold;">Make Lemon Filling: </span>In a medium saucepan...</li>
+                <ol id="ingredients" class="font">
+                    <li><span class="bold">Oven:</span>Preheat oven to 350 degrees F (175 degrees C).</li>
+                    <li><span class="bold">Make Lemon Filling: </span>In a medium saucepan...</li>
                         <ul>
                             <li>Whisk together 1 cup sugar, flour, cornstarch, and salt.</li>
                             <li>Stir in water, lemon juice and lemon zest.</li>
@@ -61,19 +84,19 @@
                             <li> Remove from heat.</li>
                             <li> Pour filling into baked pastry shell.</li>
                         </ul>
-                    <li><span style="font-weight: bold;">Make Meringue:</span> In a large glass or metal bowl ...
+                    <li><span class="bold">Make Meringue:</span> In a large glass or metal bowl ...
                         <ul>
                             <li>Whip egg whites until foamy.</li>
                             <li>Add sugar gradually, and continue to whip until stiff peaks form.</li>
                             <li>Spread meringue over pie, sealing the edges at the crust.</li>
                         </ul>
                     </li>
-                    <li><span style="font-weight: bold;">Bake: </span> Bake in preheated oven for 10 minutes, or until meringue is golden brown.</li>
+                    <li><span class="bold">Bake: </span> Bake in preheated oven for 10 minutes, or until meringue is golden brown.</li>
                 </ol>
-                <p>This is our favorite recipe here at Granny's Pies.
+                <p class="font">This is our favorite recipe here at Granny's Pies.
                     It has been enjoyed by pie fans for many years. 
                     It's Granny's favorite! We hope you'll find that this recipe is delicious and also easy to follow;
-                    it's a piece of cake pie!
+                    it's a piece of <span class="cross_out">cake</span> pie!
                 </p>
             </div>
         </section>
@@ -92,7 +115,7 @@
                     - Vickie K.
                 </blockquote>
                 <blockquote>
-                    This site can really engage my interest. Follow the recipe above and make it so! This pie is number one.
+                    This site can really <span class="bold">engage</span> my interest. Follow the recipe above and <span class="bold">make it so!</span> This pie is <span class="bold">number one</span> .
                     <br> <br>
                     - Jean-Luc Piecard
                 </blockquote>
@@ -106,13 +129,26 @@
             </div>
         </section>
         <footer>
-        <p>&copy; 2023, Sokim Nam</p>
-        <a href="https://validator.w3.org/check?url=https://sokim17.github.io/">
-            <img src="/img/w3c-html5-logo.png" alt="Validator">
-        </a>
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://sokim17.github.io/">
-            <img src="/img/w3c-css-logo.png" alt="Validator" style="width: 60px;">
-        </a>
+            <div class="box_copyright">
+                <p style="text-align: right;">
+                    Copyright &copy; 2012 Granny's Pies <br>
+                    A Granny's Pies Production          <br>
+                    All rights reserved                 <br>
+                </p>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <a href="https://validator.w3.org/check?url=https://sokim17.github.io/">
+                <img src="/img/w3c-html5-logo.png" alt="Validator">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://sokim17.github.io/">
+                <img src="/img/w3c-css-logo.png" alt="Validator">
+            </a>
         </footer>
     </div>
 </body>
