@@ -48,3 +48,12 @@ h3,h1{
 .nav_bar a:hover{
     background-color: #111;
 }
+.text_color{
+    color: #8B0000;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+}
