@@ -70,3 +70,9 @@
 .information a{
     font-weight: normal;
 }
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color: #08555b;
+}
