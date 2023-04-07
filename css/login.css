@@ -6,9 +6,9 @@
     margin-right: 10px;
 }
 .row_banner{
-    max-width: 100%;
+    max-width: 100%; 
     height: 230px;
-    background-color: #08555b;
+    background-color: #1c3287;
     text-align: center;
     color: #fff;
     padding: 90px;
@@ -74,5 +74,13 @@
     color: black;
 }
 .nav-item a:hover{
-    color: #08555b;
+    color: #1c3287;
+}
+.or_login_using{
+    font-size: small;
+    text-align: center;
+}
+.or_login_using p{
+    font-size: small;
+    text-align: center;
 }
