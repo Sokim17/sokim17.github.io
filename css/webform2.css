@@ -1,0 +1,19 @@
+legend{
+    margin-bottom: 30px;
+}
+.navbar{
+    background: linear-gradient(to bottom, #109bc9 0%, #66ccff 100%);
+    padding: 10px 10px;
+
+}
+form{
+    margin-top: 20px;
+}
+.row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul li{
+    border-right: 1px solid white;
+    padding: 10px auto;
+}
