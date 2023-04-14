@@ -1,42 +1,42 @@
-// // Question 1: Object literal
-// let student = {
-//     firstName : "",
-//     lastName : "",
-//     grades : [],
-//     inputNewGrade : function(newGrade){
-//         for(let i=0; i<newGrade.length; i++){
-//             this.grades.push(newGrade[i]);
-//         }
-//         console.log(this.grades)
-//     },
-//     computeAverageGrade : function(){
-//         var sum = 0;
-//         for(let x in this.grades){
-//             sum += x;
-//         }
-//         return sum/this.grades.length;
-//     }
-// };
+// Question 1: Object literal
+let student = {
+    firstName : "",
+    lastName : "",
+    grades : [],
+    inputNewGrade : function(newGrade){
+        for(let i=0; i<newGrade.length; i++){
+            this.grades.push(newGrade[i]);
+        }
+        console.log(this.grades)
+    },
+    computeAverageGrade : function(){
+        var sum = 0;
+        for(let x in this.grades){
+            sum += x;
+        }
+        return sum/this.grades.length;
+    }
+};
 
-// let grade = [67,54,45,55];
-// console.log(student.inputNewGrade(grade));
-// console.log(student.grades);
-// console.log(student.computeAverageGrade());
+let grade = [67,54,45,55];
+console.log(student.inputNewGrade(grade));
+console.log(student.grades);
+console.log(student.computeAverageGrade());
 
-// let student1 = Object.create(student);
-// student1.name = "Sokim Nam";
-// student1.age = 24;
-// student1.grade = [34,45,35,55];
+let student1 = Object.create(student);
+student1.name = "Sokim Nam";
+student1.age = 24;
+student1.grade = [34,45,35,55];
 
-// let student2 = Object.create(student);
-// student2.name = "Peter Nam";
-// student2.age = 20;
-// student2.grade = [44,32,65,34];
+let student2 = Object.create(student);
+student2.name = "Peter Nam";
+student2.age = 20;
+student2.grade = [44,32,65,34];
 
-// let studentArray = [
-//     { name : student1.name, age:student1.age, grade: student1.grade},
-//     { name : student2.name, age:student2.age, grade: student2.grade}
-// ];
+let studentArray = [
+    { name : student1.name, age:student1.age, grade: student1.grade},
+    { name : student2.name, age:student2.age, grade: student2.grade}
+];
 
 function calculateGrade(studentList){
     for(let i=0; i<studentList.length;i++){
@@ -53,7 +53,7 @@ function calculateGrade(studentList){
     return "------------------";
     
 }
-//  console.log(calculateGrade(studentArray));
+ console.log(calculateGrade(studentArray));
 
 //Question 2: Constructor Function
 function Student(firstName, lastName, grades){
