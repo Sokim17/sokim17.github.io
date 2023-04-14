@@ -74,19 +74,19 @@ Student.prototype.computeAverageGrade= function(){
     }
     return sum/Student.grades.length;
 };
-Student.prototype.sort = function() {
-    const n = this.length;
-    for (let i = 0; i < n; i++) {
-      for (let j = 0; j < n - i - 1; j++) {
-        if (this[j] > this[j + 1]) {
-          const temp = this[j];
-          this[j] = this[j + 1];
-          this[j + 1] = temp;
-        }
-      }
-    }
-    return this;
-  };
+// Student.prototype.sort = function() {
+//     const n = this.length;
+//     for (let i = 0; i < n; i++) {
+//       for (let j = 0; j < n - i - 1; j++) {
+//         if (this[j] > this[j + 1]) {
+//           const temp = this[j];
+//           this[j] = this[j + 1];
+//           this[j + 1] = temp;
+//         }
+//       }
+//     }
+//     return this;
+//   };
 
 const student1 = new Student("Sokim", "Nam", [67,54,45,55]);
 const student2 = new Student("Kinin", "Roza", [55,34,48,100]);
@@ -97,6 +97,6 @@ let studentArray = [
         { firstName : student2.fName, lastName:student2.lName, grade: student2.grades},
         { firstName : student3.fName, lastName:student3.lName, grade: student3.grades}
 ];
-console.log(calculateGrade(studentArray));
-// studentArray.sort((a, b) => a.firstName.localeCompare(b.lastName));
-// console.log(calculateGrade(studentArray).sort())
+// console.log(calculateGrade(studentArray));
+studentArray.sort((a, b) => a.firstName.localeCompare(b.firstName));
+console.log(studentArray)
