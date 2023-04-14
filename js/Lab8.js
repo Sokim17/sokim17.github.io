@@ -88,17 +88,17 @@ function sortByName(arr) {
   return arr;
 }
 
-const student1 = new Student("Sokim", "Nam", [67,54,45,55]);
-const student2 = new Student("Kinin", "Roza", [55,34,48,100]);
-const student3 = new Student("Ratanak", "Chhay", [45,67,99,12]);
+const studentCF1 = new Student("Sokim", "Nam", [67,54,45,55]);
+const studentCF2 = new Student("Kinin", "Roza", [55,34,48,100]);
+const studentCF3 = new Student("Ratanak", "Chhay", [45,67,99,12]);
 
-let studentArray = [
-        { firstName : student1.fName, lastName:student1.lName, grade: student1.grades},
-        { firstName : student2.fName, lastName:student2.lName, grade: student2.grades},
-        { firstName : student3.fName, lastName:student3.lName, grade: student3.grades}
+let studentList = [
+        { firstName : studentCF1.fName, lastName:studentCF1.lName, grade: studentCF1.grades},
+        { firstName : studentCF2.fName, lastName:studentCF2.lName, grade: studentCF2.grades},
+        { firstName : studentCF3.fName, lastName:studentCF3.lName, grade: studentCF3.grades}
 ];
-// console.log(calculateGrade(studentArray));
-studentArray.sort((a, b) => a.firstName.localeCompare(b.firstName));
+console.log(calculateGrade(studentList));
+studentList.sort((a, b) => a.firstName.localeCompare(b.firstName));
 
-// console.log(studentArray)
-console.log(sortByName(studentArray))
+// console.log(studentList)
+console.log(sortByName(studentList))
