@@ -11,5 +11,5 @@ for(let i=0; i<people.length; i++){
 }
 
 var title = "Software Engineer";
-const jim = new Employee("Jim Hanson", 245,990.00, new Date("2023-01-01"));
+const jim = new Employee("Jim Hanson", "$245,990.00", new Date("2023-01-01"));
 console.log(jim.doJob(title));
