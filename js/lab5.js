@@ -181,7 +181,6 @@ function printFibo(n, a, b){
 
 //14.1.
 function sum(array){
-    
     return array.filter(x => x > 20)
     .reduce((x, y) => x + y);
 }
@@ -197,6 +196,48 @@ function getNewArray(arr){
         }
     });
 }
-// var array = ["Pizzaaaaaaaaaa", "Hamburger", "nuggats"]
+// var array = ["Pizzaaaaaaaaaa", "Hamburger", "nuggets"]
 // console.log(getNewArray(array))
 
+// compute the average grade of all students who took cs303 course 
+//which returns an object which key is students' names, values is the average.
+//   const students = [
+//     { name: 'Quincy', grades: [99, 88], courses:['cs301', 'cs303']},
+//     { name: 'Jason', grades: [29, 38], courses:['cs201', 'cs203']},
+//     { name: 'Alexis', grades: [79, 78], courses:['cs105', 'cs211'] },
+//     { name: 'Sam', grades: [91, 82], courses:['cs445', 'cs303'] },
+//     { name: 'Katie', grades: [66, 77], courses:['cs303', 'cs477'] }
+//   ];
+  
+//   const course = 'cs303';
+  
+//   const filteredStudents = students.filter(student => student.courses.includes(course));
+  
+//   const averages = filteredStudents.reduce((acc, student) => {
+//     const total = student.grades.reduce((sum, grade) => sum + grade, 0);
+//     const count = student.grades.length;
+//     const average = total / count;
+//     acc[student.name] = average;
+//     return acc;
+//   }, {});
+  
+// //   console.log(averages);
+//   // Output: { Quincy: 93.5, Sam: 86.5, Katie: 71.5 }
+
+//   if (true) {
+//     let str = "hello";
+//     // console.log(str);//hello
+// }
+//     // console.log(str); //error
+
+//     function foo(arg) {
+//         if (arg) {
+//         var str = "hello";
+//         return str;
+//         }
+//     }
+//         let f = foo(1);
+//         // console.log(f)
+//         // console.log(str);
+        
+        
